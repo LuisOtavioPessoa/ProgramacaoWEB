@@ -16,7 +16,7 @@ $nome=$_REQUEST['nome'];
 $salario=$_REQUEST['salario'];
 $vendas=$_REQUEST['vendas'];
 $comissao=$vendas * (4 / 100);
-$salariofinal= $salario + $vendas + $comissao;
+$salariofinal= $salario + $comissao;
 
 
 echo "O funcionário $nome tem o salário fixo de R$$salario.<br>E nesse mês fez o total de R$$vendas em vendas e teve uma comissão de R$$comissao.<br>Portanto seu Salário Final foi de R$$salariofinal.";

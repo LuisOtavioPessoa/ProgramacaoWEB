@@ -15,8 +15,8 @@
 $base_maior=$_REQUEST['basemaior'];
 $base_menor=$_REQUEST['basemenor'];
 $altura=$_REQUEST['altura'];
-$calculo= ($base_maior + $base_menor)*$altura;
-$area= $calculo /2;
+$area= ($base_maior + $base_menor)*$altura / 2;
+
 
 echo "A Área do Trapézio é $area";
 
