@@ -19,7 +19,9 @@ $comissao=$vendas * (4 / 100);
 $salariofinal= $salario + $comissao;
 
 
-echo "O funcionário $nome tem o salário fixo de R$$salario.<br>E nesse mês fez o total de R$$vendas em vendas e teve uma comissão de R$$comissao.<br>Portanto seu Salário Final foi de R$$salariofinal.";
+echo "O funcionário $nome tem o salário fixo de R$$salario.<br>
+E nesse mês fez o total de R$$vendas em vendas e teve uma comissão de R$$comissao.<br>
+Portanto seu Salário Final foi de R$$salariofinal.";
 
 
 
